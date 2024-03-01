@@ -3,21 +3,21 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="bg-orange-500 text-white  w-full h-80 flex justify-around pt-20">
-      <div className="services flex flex-col">
+      <div className="services flex flex-col leading-7">
         <h2 className="pb-6 text-xl">SERVICES</h2>
         <a href="">Branding</a>
         <a href="">Design</a>
         <a href="">Marketing</a>
         <a href="">Advertise</a>
       </div>
-      <div className="company flex flex-col">
+      <div className="company flex flex-col leading-7">
         <h2 className="pb-6 text-xl">COMPANY</h2>
         <a href="">About Us</a>
         <NavLink to={`contact`}>Contact</NavLink>
         <a href="">Jobs</a>
         <a href="">Press Kit</a>
       </div>
-      <div className="legal flex flex-col">
+      <div className="legal flex flex-col leading-7">
         <h2 className="pb-6 text-xl">LEGAL</h2>
         <a href="">Terms Of Use</a>
         <a href="">Privacy Policy</a>
